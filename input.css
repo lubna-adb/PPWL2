@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #9333EA;
+  --color-brand-light: #C084FC;
+}
+
+@layer components {
+
+  .tab {
+    @apply px-4 py-2 text-sm font-medium border-b-2 transition;
+  }
+
+  .tab-active {
+    @apply border-[var(--color-brand)] text-[var(--color-brand)];
+  }
+
+  .tab-inactive {
+    @apply border-transparent text-gray-500 
+           hover:text-[var(--color-brand)] 
+           hover:border-[var(--color-brand-light)];
+  }
+
+}

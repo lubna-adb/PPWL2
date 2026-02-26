@@ -1,0 +1,2 @@
+1.2 di tailwind v3 ada tab config yang artinya konfigurasi dilakukan lewat file javascript, jadi kalau mau ubah tema, warna font, dan lain-lain harus lewat file config tersebut. sedangkan kalau di tailwind v4 tidak ada tab config, konfigurasinya bisa langsung dilakukan di file css menggunakan perintah seperti @theme, @utility, dan @variant. jadi tidak terlalu bergantung pada file js lagi
+1.4 Kalau pakai bg-blue-600, warna background akan mengisi bagian content dan padding. Margin tidak ikut berubah karena margin adalah jarak luar elemen.
